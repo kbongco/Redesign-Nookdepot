@@ -1,4 +1,4 @@
-img {
+#profile {
   height:232px;
   width:286px;
   border-radius:50%;
@@ -6,4 +6,8 @@ img {
 .user {
   margin-top:auto;
   font-size:36px;
+}
+.socials{
+  height:38px;
+  width:53px
 }

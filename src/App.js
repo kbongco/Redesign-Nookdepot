@@ -9,7 +9,11 @@ function App() {
       <NavBar />
       <div>
         <UserPicComponent />
-        </div>
+      </div>
+      <div>
+
+      </div>
+      <hr/>
     </div>
   );
 }
