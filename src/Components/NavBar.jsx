@@ -1,32 +1,29 @@
 import React from 'react';
 import styled from 'styled-components'
+import './NavBar.css'
 
 export default function NavBar() {
-  const NavBar = styled.div`
-  background-color:#A3A2CF;
-  margin-top:auto;
-  `
+  const navContainer = {
+  backgroundColor:'#A3A2CF',
+  marginTop:'auto',
+}
 
-  const NavLinks = styled.ul`
-  text-decoration:none;
-  display:inline;
-  font-size:20px;
-  `
+
   return (
     <>
-      <NavBar>
-        <h1>NookDepot</h1>
+      <div className='navbar-container' style={navContainer}>
+        <h1 style={{ marginTop: 'auto' }}>NookDepot</h1>
         <nav>
-          <NavLinks>
+          <ul>
             <li>Home</li>
             <li>Directory</li>
             <li>Tools</li>
             <li>Services</li>
             <li>Garden</li>
             <li>DIY Materials</li>
-          </NavLinks>
+          </ul>
         </nav>
-      </NavBar>
+      </div>
       </>
   )
 }
