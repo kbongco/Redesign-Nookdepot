@@ -25,6 +25,17 @@ export default function ServicesAndExchange() {
             </ul>
         </ul>
       </div>
+      <div className='others'>
+        <div className='other-container'>
+          <h2 id='users-info'>User and Store Information</h2>
+          <ul className='basic-information'>
+            <li>InGame Name:chibi</li>
+            <li>Town Name: Kamurocho</li>
+            <li>Native Fruit: Apple</li>
+            <li>Hemisphere: Nothern</li>
+          </ul>
+        </div>
+      </div>
       </>
   )
 }

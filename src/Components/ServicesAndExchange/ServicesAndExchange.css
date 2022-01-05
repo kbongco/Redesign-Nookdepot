@@ -14,3 +14,21 @@ h2{
 ul{
   font-size:36px;
 }
+
+.others{
+  grid-area: 1 / 2 / 3 / 3;
+  margin-right:50px;
+  margin-top:75px;
+}
+
+.other-container{
+  background-color:#A3A2CF;
+}
+
+#users-info{
+  text-align:center;
+}
+
+.basic-information{
+  list-style-type:none;
+}
