@@ -10,6 +10,14 @@
   height: 40vmin;
   pointer-events: none;
 }
+.information{
+  display: grid;
+    grid-template-columns: 0.3fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

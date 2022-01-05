@@ -12,7 +12,7 @@ export default function NavBar() {
   return (
     <>
       <div className='navbar-container' style={navContainer}>
-        <h1 style={{ marginTop: 'auto', textAlign:'left' }}>NookDepot</h1>
+        <h1 style={{ marginTop: 'auto', textAlign:'left', fontSize:'36px' }}>NookDepot</h1>
         <nav>
           <ul>
             <li>Home</li>

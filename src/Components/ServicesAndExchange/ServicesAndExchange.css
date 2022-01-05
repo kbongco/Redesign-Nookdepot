@@ -1,0 +1,16 @@
+.sidebar, .exchange{
+  background-color:#EEE4E4;
+}
+
+.exchange{
+  border-top-style:solid;
+}
+
+h2{
+  font-size:36px;
+  text-align:left;
+}
+
+ul{
+  font-size:36px;
+}

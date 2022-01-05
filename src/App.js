@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './Components/NavBar'
 import UserPicComponent from './Components/UserPicComponent/UserPicComponent';
 import UserNavLinks from './Components/UserNavLinks/UserNavLinks';
+import ServicesAndExchange from './Components/ServicesAndExchange/ServicesAndExchange';
 
 function App() {
   return (
@@ -14,7 +15,10 @@ function App() {
       <div>
         <UserNavLinks/>
       </div>
-      <hr/>
+      <hr />
+      <div className='information'>
+       <ServicesAndExchange/>
+      </div>
     </div>
   );
 }

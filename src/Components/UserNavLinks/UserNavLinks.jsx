@@ -14,6 +14,7 @@ export default function UserNavLinks() {
           onClick={(e) => {
             updateDefaultLink("StoreInfo")
           }}
+          aria-label='Store Info'
         >
           User/Store Info
         </a>
@@ -23,6 +24,7 @@ export default function UserNavLinks() {
           onClick={(e) => {
             updateDefaultLink("Selling")
           }}
+          aria-label='Items Selling '
         >
           Currently selling
         </a>
@@ -35,6 +37,7 @@ export default function UserNavLinks() {
             updateDefaultLink("Searching")
           }}
           id='search'
+          aria-label='Search'
         >
           Currently Searching for
         </a>
