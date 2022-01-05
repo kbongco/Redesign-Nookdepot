@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
+import Search from '../Components/SearchBar/Search.jsx'
 import './NavBar.css'
 
 export default function NavBar() {
@@ -12,7 +13,10 @@ export default function NavBar() {
   return (
     <>
       <div className='navbar-container' style={navContainer}>
-        <h1 style={{ marginTop: 'auto', textAlign:'left', fontSize:'36px' }}>NookDepot</h1>
+        <h1 style={{ marginTop: 'auto', textAlign: 'left', fontSize: '36px' }}>NookDepot</h1>
+        <div className='search-container'>
+          <Search />
+          </div>
         <nav>
           <ul>
             <li>Home</li>
