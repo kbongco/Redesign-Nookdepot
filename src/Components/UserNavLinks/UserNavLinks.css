@@ -1,0 +1,24 @@
+.link-container{
+  margin-bottom:auto;
+  font-size:36px;
+  display:flex;
+  justify-content:flex-end;
+  column-gap:100px;
+}
+
+a{
+  text-decoration:none;
+  color:black;
+}
+
+#search {
+  margin-right:150px;
+}
+
+.link-clicked {
+  color:#4AB823;
+}
+
+.clicked {
+  color: #4AB823 !important;
+}
